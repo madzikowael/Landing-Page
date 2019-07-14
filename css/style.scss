@@ -16,6 +16,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     font-family: $font-text;
+    text-decoration: none;
 } 
     
 /*Splash*/
@@ -27,18 +28,29 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }        
-    .splash-inner {
-        position: absolute;
-        width: 100%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);        
-    } 
-    .splash-button {
-        position: absolute;
-        width: 100%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%); 
-        background: solid 1px yellow;
-        }
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);        
+} 
+.splash-button {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    border: solid 1px yellow;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;   
+}   
+ul {
+    list-style-type: none;
+}     
+.title-in-section {
+    text-align: center;
+}
