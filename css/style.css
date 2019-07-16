@@ -102,7 +102,7 @@ ul {
 }
 
 .sentence-below-title-of-section {
-  font-family: "Vollkorn", serif;
+  font-family: "Satisfy", cursive;
   font-size: 20px;
   color: c4c2b6;
   margin-top: 0;
@@ -120,7 +120,25 @@ ul {
   position: relative;
 }
 
+.our-portfolio {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.card-title {
+  font-family: "Russo One", sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-family: "Satisfy", cursive;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
 .social-icons i {
-  color: blue;
+  color: black;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
