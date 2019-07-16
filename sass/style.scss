@@ -84,6 +84,19 @@ ul {
 }     
 .title-in-section {
     text-align: center;
+    color: black;
+}
+.title-of-section{
+    font-size: 34px;
+    color: black;
+    margin-bottom: 10px;
+}
+.sentence-below-title-of-section {    
+    font-family: $font-family;
+    font-size: 20px;
+    color: c4c2b6;
+    margin-top: 0;
+    margin-bottom: 45px;
 }
 .social-icons {
     i {
