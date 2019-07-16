@@ -18,6 +18,40 @@ body {
   text-decoration: none;
 }
 
+/*Navbar*/
+.navbar {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.navbar-brand {
+  font-family: "Satisfy", cursive;
+  color: black;
+  font-size: 34px;
+  text-align: left;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.nav-link {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  font-size: 24px;
+  padding-left: 40px;
+  text-align: right;
+  background-color: white;
+  margin: 15px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  padding-right: 40px;
+}
+
 /*Splash*/
 .splash {
   height: 100vh;

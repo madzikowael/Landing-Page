@@ -18,7 +18,33 @@ body {
     font-family: $font-text;
     text-decoration: none;
 } 
-    
+/*Navbar*/
+.navbar {
+    justify-content: center;
+}
+.navbar-brand {
+    font-family: $font-header;
+    color: black;
+    font-size: 34px;
+    text-align: left;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.nav-link {
+    text-decoration-line: none;
+    color: black;
+    font-size: 24px;
+    padding-left: 40px;
+    text-align: right;
+    background-color: white;
+    margin: 15px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact {
+    padding-right: 40px;
+}    
 /*Splash*/
 .splash {
     height: 100vh; 
