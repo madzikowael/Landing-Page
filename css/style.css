@@ -139,6 +139,16 @@ ul {
 
 .social-icons i {
   color: black;
-  font-size: 20px;
+}
+
+.fab {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.copyright {
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */
